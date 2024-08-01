@@ -68,7 +68,6 @@ function NavMenu() {
       <div className="navItem">Jobs</div>
       <div className="navItem">Skills</div>
       <div className="navItem">Prototypes</div>
-      <div className="navItem">Education</div>
     </div>
   );
 }
