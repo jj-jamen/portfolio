@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <WebTitle />
     <Quotes />
-    <NavMenu />
+    {/* <NavMenu /> */}
     <Socials />
   </React.StrictMode>
 );
@@ -62,15 +62,15 @@ function Quotes() {
   );
 }
 
-function NavMenu() {
-  return (
-    <div className="navContainer">
-      <div className="navItem">Jobs</div>
-      <div className="navItem">Skills</div>
-      <div className="navItem">Prototypes</div>
-    </div>
-  );
-}
+// function NavMenu() {
+//   return (
+//     <div className="navContainer">
+//       <div className="navItem">Jobs</div>
+//       <div className="navItem">Skills</div>
+//       <div className="navItem">Prototypes</div>
+//     </div>
+//   );
+// }
 
 function Socials() {
   return (
