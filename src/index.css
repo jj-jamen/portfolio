@@ -110,3 +110,7 @@ body {
   gap: 20px;
   width: 100%;
 }
+
+.jobdetailstxt {
+  font-family: "Montserrat Alternates", sans-serif;
+}

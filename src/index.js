@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import quoteData from "./quoteData.json";
+import jobsData from "./jobsData.json";
 import IconButton from "@mui/material/IconButton";
 import CachedIcon from "@mui/icons-material/Cached";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <WebTitle />
     <Quotes />
-    {/* <NavMenu /> */}
     <Socials />
+    <JobEXp />
   </React.StrictMode>
 );
 
@@ -75,6 +80,7 @@ function Quotes() {
 function Socials() {
   return (
     <div className="socialIconsContainer">
+      <img src="images/taskus.png" alt="test" />
       <div className="socialIcons">
         <IconButton
           href="https://github.com/jj-jamen"
@@ -91,6 +97,54 @@ function Socials() {
           <LinkedInIcon />
         </IconButton>
       </div>
+    </div>
+  );
+}
+
+function JobEXp() {
+  return jobsData.map((jobs) => <JobExpDetails jobInfo={jobs} key={jobs.id} />);
+}
+
+function JobExpDetails({ jobInfo }) {
+  return (
+    <div>
+      <Card key={jobInfo.id} sx={{ maxWidth: 700 }}>
+        <CardMedia
+          component="img"
+          alt="company"
+          height="140"
+          src={jobInfo.photo}
+        />
+        <CardContent>
+          <Typography
+            className="jobdetailstxt"
+            gutterBottom
+            variant="h5"
+            component="div"
+          >
+            {jobInfo.role}
+          </Typography>
+          <Typography
+            className="jobdetailstxt"
+            gutterBottom
+            variant="p"
+            component="div"
+          >
+            {jobInfo.company} - {jobInfo.client}
+          </Typography>
+          <Typography
+            className="jobdetailstxt"
+            gutterBottom
+            variant="p"
+            component="div"
+          >
+            <small>{jobInfo.duration}</small>
+          </Typography>
+          <Typography className="jobdetailstxt" variant="body2">
+            {jobInfo.details}
+          </Typography>
+        </CardContent>
+      </Card>
     </div>
   );
 }
