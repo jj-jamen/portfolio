@@ -111,6 +111,27 @@ body {
   width: 100%;
 }
 
+.workHistoryTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20% 0 20% 0;
+}
+
+.workHistoryText {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 10px;
+}
+
 .jobdetailstxt {
   font-family: "Montserrat Alternates", sans-serif;
+}
+
+.companiesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5% 0 20% 0;
 }

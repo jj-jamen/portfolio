@@ -18,6 +18,7 @@ root.render(
     <WebTitle />
     <Quotes />
     <Socials />
+    <Section2Title />
     <JobEXp />
   </React.StrictMode>
 );
@@ -100,14 +101,22 @@ function Socials() {
   );
 }
 
+function Section2Title() {
+  return (
+    <div className="workHistoryTitle">
+      <h2 className="workHistoryText">Work history</h2>
+    </div>
+  );
+}
+
 function JobEXp() {
   return jobsData.map((jobs) => <JobExpDetails jobInfo={jobs} key={jobs.id} />);
 }
 
 function JobExpDetails({ jobInfo }) {
   return (
-    <div>
-      <Card key={jobInfo.id} sx={{ maxWidth: 600 }}>
+    <div className="companiesContainer">
+      <Card className="companies" key={jobInfo.id} sx={{ maxWidth: 600 }}>
         <CardMedia
           maxWidth="600"
           component="img"
