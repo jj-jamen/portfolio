@@ -80,7 +80,6 @@ function Quotes() {
 function Socials() {
   return (
     <div className="socialIconsContainer">
-      <img src="images/taskus.png" alt="test" />
       <div className="socialIcons">
         <IconButton
           href="https://github.com/jj-jamen"
@@ -108,8 +107,9 @@ function JobEXp() {
 function JobExpDetails({ jobInfo }) {
   return (
     <div>
-      <Card key={jobInfo.id} sx={{ maxWidth: 700 }}>
+      <Card key={jobInfo.id} sx={{ maxWidth: 600 }}>
         <CardMedia
+          maxWidth="600"
           component="img"
           alt="company"
           height="140"
