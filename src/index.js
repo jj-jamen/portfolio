@@ -18,9 +18,9 @@ root.render(
   <React.StrictMode>
     <WebTitle />
     <Quotes />
-    <Socials />
     <Section2Title />
     <JobEXp />
+    <Socials />
   </React.StrictMode>
 );
 
