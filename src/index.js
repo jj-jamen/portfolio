@@ -9,8 +9,9 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+import CardHeader from "@mui/material/CardHeader";
+import Avatar from "@mui/material/Avatar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -117,12 +118,10 @@ function JobExpDetails({ jobInfo }) {
   return (
     <div className="companiesContainer">
       <Card className="companies" key={jobInfo.id} sx={{ maxWidth: 600 }}>
-        <CardMedia
-          maxWidth="600"
-          component="img"
-          alt="company"
-          height="140"
-          src={jobInfo.photo}
+        <CardHeader
+          avatar={<Avatar src={jobInfo.photo} aria-label="recipe" />}
+          title={jobInfo.company}
+          subheader={jobInfo.client}
         />
         <CardContent>
           <Typography
@@ -138,9 +137,7 @@ function JobExpDetails({ jobInfo }) {
             gutterBottom
             variant="p"
             component="div"
-          >
-            {jobInfo.company} - {jobInfo.client}
-          </Typography>
+          ></Typography>
           <Typography
             className="jobdetailstxt"
             gutterBottom
