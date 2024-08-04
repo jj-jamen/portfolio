@@ -117,7 +117,7 @@ function JobEXp() {
 function JobExpDetails({ jobInfo }) {
   return (
     <div className="companiesContainer">
-      <Card className="companies" key={jobInfo.id} sx={{ maxWidth: 600 }}>
+      <Card className="companies" key={jobInfo.id} sx={{ maxWidth: 550 }}>
         <CardHeader
           avatar={<Avatar src={jobInfo.photo} aria-label="recipe" />}
           title={jobInfo.company}
