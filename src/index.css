@@ -27,7 +27,18 @@ body {
   margin-top: 10%;
 } */
 
-/* Styles for mobile devices (width <= 767px) */
+@media (min-width: 300px) and (max-width: 766px) {
+  .quote-container {
+    margin: 0 0 100% 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .title {
+    margin: 100% 0 20% 0;
+  }
+}
+
 @media (max-width: 767px) {
   .title {
     margin: 50% 0 20% 0;
