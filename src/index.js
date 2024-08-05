@@ -98,7 +98,7 @@ function JobExpDetails({ jobInfo }) {
         raised
         className="companies"
         key={jobInfo.id}
-        sx={{ maxWidth: 550, minWidth: 470, minHeight: 135 }}
+        sx={{ maxWidth: 550, minWidth: 295, minHeight: 135 }}
       >
         <CardHeader
           avatar={<Avatar src={jobInfo.photo} aria-label="recipe" />}

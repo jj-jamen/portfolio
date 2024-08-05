@@ -30,7 +30,7 @@ body {
 /* Styles for mobile devices (width <= 767px) */
 @media (max-width: 767px) {
   .title {
-    margin-top: 50%;
+    margin: 50% 0 20% 0;
   }
 }
 
