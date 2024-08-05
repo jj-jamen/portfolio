@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 
 body {
   background-image: none;
@@ -74,7 +75,7 @@ body {
   animation: rotate 5s ease-in infinite;
 }
 
-.navContainer {
+/* .navContainer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -97,7 +98,7 @@ body {
   background: black;
   color: white;
   transform: translateY(-5px);
-}
+} */
 
 .socialIconsContainer {
   margin-top: 15%;
@@ -119,14 +120,17 @@ body {
 }
 
 .workHistoryText {
-  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 10px;
 }
 
 .jobdetailstxt {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .companiesContainer {
@@ -134,4 +138,17 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin: 2% 0 2% 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.jobdetailstxt-details {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 20px;
+  text-indent: -22px;
 }
