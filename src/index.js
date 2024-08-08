@@ -12,6 +12,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import CardHeader from "@mui/material/CardHeader";
 import Avatar from "@mui/material/Avatar";
+import Grid from "@mui/material/Grid";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -69,16 +70,6 @@ function Quotes() {
   );
 }
 
-// function NavMenu() {
-//   return (
-//     <div className="navContainer">
-//       <div className="navItem">Jobs</div>
-//       <div className="navItem">Skills</div>
-//       <div className="navItem">Prototypes</div>
-//     </div>
-//   );
-// }
-
 function Section2Title() {
   return (
     <div className="workHistoryTitle">
@@ -87,56 +78,115 @@ function Section2Title() {
   );
 }
 
+// function JobEXp() {
+//   return jobsData.map((jobs) => <JobExpDetails jobInfo={jobs} key={jobs.id} />);
+// }
+
+// function JobExpDetails({ jobInfo }) {
+//   return (
+//     <div className="companiesContainer">
+//       <Card
+//         raised
+//         className="companies"
+//         key={jobInfo.id}
+//         sx={{ maxWidth: 550, minWidth: 295, minHeight: 135 }}
+//       >
+//         <CardHeader
+//           avatar={<Avatar src={jobInfo.photo} aria-label="recipe" />}
+//           title={jobInfo.company}
+//           subheader={jobInfo.client}
+//         />
+//         <CardContent>
+//           <Typography
+//             className="jobdetailstxt"
+//             variant="title"
+//             gutterBottom
+//             component="div"
+//           >
+//             {jobInfo.role}
+//           </Typography>
+//           <Typography
+//             className="jobdetailstxt"
+//             gutterBottom
+//             variant="subtitle"
+//             component="div"
+//           >
+//             <small>{jobInfo.duration}</small>
+//           </Typography>
+//           <Typography className="jobdetailstxt-details" variant="body2">
+//             <ul>
+//               {jobInfo.details.map((detail, index) => (
+//                 <li key={index}>{detail.text}</li>
+//               ))}
+//             </ul>
+//           </Typography>
+//         </CardContent>
+//       </Card>
+//     </div>
+//   );
+// }
+
 function JobEXp() {
-  return jobsData.map((jobs) => <JobExpDetails jobInfo={jobs} key={jobs.id} />);
+  return (
+    <Grid container spacing={3} justifyContent="space-evenly">
+      {jobsData.map((jobs) => (
+        <Grid
+          item
+          display="flex"
+          justifyContent="center"
+          xs={12}
+          sm={12}
+          md={12}
+          lg={4}
+          xl={4}
+          key={jobs.id}
+        >
+          <JobExpDetails jobInfo={jobs} />
+        </Grid>
+      ))}
+    </Grid>
+  );
 }
 
 function JobExpDetails({ jobInfo }) {
   return (
-    <div className="companiesContainer">
-      <Card
-        raised
-        className="companies"
-        key={jobInfo.id}
-        sx={{ maxWidth: 550, minWidth: 295, minHeight: 135 }}
-      >
-        <CardHeader
-          avatar={<Avatar src={jobInfo.photo} aria-label="recipe" />}
-          title={jobInfo.company}
-          subheader={jobInfo.client}
-        />
-        <CardContent>
-          <Typography
-            className="jobdetailstxt"
-            variant="title"
-            gutterBottom
-            component="div"
-          >
-            {jobInfo.role}
-          </Typography>
-          <Typography
-            className="jobdetailstxt"
-            gutterBottom
-            variant="subtitle"
-            component="div"
-          >
-            <small>{jobInfo.duration}</small>
-          </Typography>
-          <Typography className="jobdetailstxt-details" variant="body2">
-            {jobInfo.details.map((jobDetail) => {
-              return (
-                <div>
-                  <li>{jobDetail.detail1}</li>
-                  <li>{jobDetail.detail2}</li>
-                  <li>{jobDetail.detail3}</li>
-                  <li>{jobDetail.detail4}</li>
-                </div>
-              );
-            })}
-          </Typography>
-        </CardContent>
-      </Card>
-    </div>
+    <Card
+      raised
+      className="companies"
+      key={jobInfo.id}
+      sx={{ maxWidth: 550, minWidth: 295, minHeight: 135 }}
+    >
+      <CardHeader
+        avatar={<Avatar src={jobInfo.photo} aria-label="recipe" />}
+        title={jobInfo.company}
+        subheader={jobInfo.client}
+      />
+      <CardContent>
+        <Typography
+          className="jobdetailstxt"
+          variant="title"
+          gutterBottom
+          component="div"
+        >
+          {jobInfo.role}
+        </Typography>
+        <Typography
+          className="jobdetailstxt"
+          gutterBottom
+          variant="subtitle"
+          component="div"
+        >
+          <small>{jobInfo.duration}</small>
+        </Typography>
+        <Typography className="jobdetailstxt-details" variant="body2">
+          <ul>
+            {jobInfo.details.map((detail, index) => (
+              <li key={index}>{detail.text}</li>
+            ))}
+          </ul>
+        </Typography>
+      </CardContent>
+    </Card>
   );
 }
 

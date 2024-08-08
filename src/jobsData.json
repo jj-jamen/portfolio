@@ -8,10 +8,16 @@
     "photo": "images/taskus_logo.jfif",
     "details": [
       {
-        "detail1": "✔️ Resolved technical issues in Shopify stores by debugging and troubleshooting problems related to functionality, integrations, and performance, and reported and documented bugs on GitHub and internal documentation repositories to ensure they were tracked and addressed.",
-        "detail2": "✔️ Managed the team's ticket queue to ensure timely resolution of merchant issues and efficient support operations.",
-        "detail3": "✔️ Onboarded and trained new team members, equipping them with the knowledge and tools needed for effective merchant support.",
-        "detail4": "✔️ Assisted merchants with technical issues, including troubleshooting website problems, resolving app integrations, and addressing payment processing issues and Helped merchants with store customizations, including theme modifications, custom coding, and third-party app integrations."
+        "text": "✔️ Resolved technical issues in Shopify stores by debugging and troubleshooting problems related to functionality, integrations, and performance, and reported and documented bugs on GitHub and internal documentation repositories to ensure they were tracked and addressed."
+      },
+      {
+        "text": "✔️ Managed the team's ticket queue to ensure timely resolution of merchant issues and efficient support operations."
+      },
+      {
+        "text": "✔️ Onboarded and trained new team members, equipping them with the knowledge and tools needed for effective merchant support."
+      },
+      {
+        "text": "✔️ Assisted merchants with technical issues, including troubleshooting website problems, resolving app integrations, and addressing payment processing issues and Helped merchants with store customizations, including theme modifications, custom coding, and third-party app integrations."
       }
     ]
   },
@@ -24,10 +30,16 @@
     "photo": "images/everise_logo.jfif",
     "details": [
       {
-        "detail1": "✔️ Expertly handled complex and escalated customer issues that frontline representatives could not resolve, providing detailed solutions and ensuring customer satisfaction.",
-        "detail2": "✔️ Tracked and generated weekly reports on top call drivers leading to escalations, analyzing trends to identify areas for improvement.",
-        "detail3": "✔️ Maintained up-to-date knowledge on Amazon's products, services, and policies, and trained customer service representatives to ensure they had the necessary information to assist customers effectively.",
-        "detail4": "✔️ Mentored newly trained customer service representatives, providing guidance and support to help them acclimate to their roles and improve their performance."
+        "text": "✔️ Expertly handled complex and escalated customer issues that frontline representatives could not resolve, providing detailed solutions and ensuring customer satisfaction."
+      },
+      {
+        "text": "✔️ Tracked and generated weekly reports on top call drivers leading to escalations, analyzing trends to identify areas for improvement."
+      },
+      {
+        "text": "✔️ Maintained up-to-date knowledge on Amazon's products, services, and policies, and trained customer service representatives to ensure they had the necessary information to assist customers effectively."
+      },
+      {
+        "text": "✔️ Mentored newly trained customer service representatives, providing guidance and support to help them acclimate to their roles and improve their performance."
       }
     ]
   },
@@ -40,10 +52,13 @@
     "photo": "images/ibex_logo.jfif",
     "details": [
       {
-        "detail1": "✔️ Provided in-depth troubleshooting for complex technical issues related to fiber optic internet services, including connectivity problems, speed issues, and hardware malfunctions. Assisted fiber internet subscribers with these issues and scheduled repair or installation appointments.",
-        "detail2": "✔️ Scheduled repair or installation appointments, ensuring efficient resolution and customer satisfaction.",
-        "detail3": "✔️ Offered detailed guidance and support to customers on the installation, configuration, and optimization of their fiber internet services to ensure optimal performance.",
-        "detail4": ""
+        "text": "✔️ Provided in-depth troubleshooting for complex technical issues related to fiber optic internet services, including connectivity problems, speed issues, and hardware malfunctions. Assisted fiber internet subscribers with these issues and scheduled repair or installation appointments."
+      },
+      {
+        "text": "✔️ Scheduled repair or installation appointments, ensuring efficient resolution and customer satisfaction."
+      },
+      {
+        "text": "✔️ Offered detailed guidance and support to customers on the installation, configuration, and optimization of their fiber internet services to ensure optimal performance."
       }
     ]
   },
@@ -56,10 +71,16 @@
     "photo": "images/tdcx_logo.jfif",
     "details": [
       {
-        "detail1": "✔️ Addressed and resolved issues between hosts and guests, such as disputes over refunds, cancellations, property damages, or guest behavior.",
-        "detail2": "✔️ Acted as a neutral party to mediate disputes and come to fair resolutions based on Airbnb's policies and guidelines.",
-        "detail3": "✔️ Offered support and guidance to both hosts and guests, ensuring their concerns were addressed promptly and efficiently.",
-        "detail4": "✔️ Ensured that all parties adhered to Airbnb's policies and community standards, and took appropriate action when violations occurred."
+        "text": "✔️ Addressed and resolved issues between hosts and guests, such as disputes over refunds, cancellations, property damages, or guest behavior."
+      },
+      {
+        "text": "✔️ Acted as a neutral party to mediate disputes and come to fair resolutions based on Airbnb's policies and guidelines."
+      },
+      {
+        "text": "✔️ Offered support and guidance to both hosts and guests, ensuring their concerns were addressed promptly and efficiently."
+      },
+      {
+        "text": "✔️ Ensured that all parties adhered to Airbnb's policies and community standards, and took appropriate action when violations occurred."
       }
     ]
   },
@@ -72,10 +93,13 @@
     "photo": "images/resultscx_logo.jfif",
     "details": [
       {
-        "detail1": "✔️  Resolved complex technical issues related to fiber optic internet services, including connectivity problems, network configurations, and hardware malfunctions, using advanced diagnostic techniques.",
-        "detail3": "✔️  Utilized remote access and other diagnostic tools to efficiently diagnose and resolve issues directly on customers' devices or networks, enhancing the speed and accuracy of problem resolution.",
-        "detail2": "✔️  Managed escalated tickets and email interactions, ensuring that all pertinent information was accurately documented and effectively communicated to field technicians for timely resolution.",
-        "detail4": ""
+        "text": "✔️  Resolved complex technical issues related to fiber optic internet services, including connectivity problems, network configurations, and hardware malfunctions, using advanced diagnostic techniques."
+      },
+      {
+        "text": "✔️  Utilized remote access and other diagnostic tools to efficiently diagnose and resolve issues directly on customers' devices or networks, enhancing the speed and accuracy of problem resolution."
+      },
+      {
+        "text": "✔️  Managed escalated tickets and email interactions, ensuring that all pertinent information was accurately documented and effectively communicated to field technicians for timely resolution."
       }
     ]
   },
@@ -88,10 +112,13 @@
     "photo": "images/transcom_logo.jfif",
     "details": [
       {
-        "detail1": "✔️ Identified and resolved a range of technical problems, such as connectivity issues, hardware malfunctions, and service disruptions, utilizing diagnostic tools and troubleshooting techniques to ensure minimal downtime and restore service quickly.",
-        "detail2": "✔️ Analyzed and addressed both immediate and underlying causes of technical issues to prevent recurrence, employing a systematic approach to problem-solving and improving overall service reliability",
-        "detail3": "✔️ Delivered a positive customer experience by demonstrating patience, courtesy, and empathy in every interaction, ensuring that customers felt heard and valued throughout the support process.",
-        "detail4": ""
+        "text": "✔️ Identified and resolved a range of technical problems, such as connectivity issues, hardware malfunctions, and service disruptions, utilizing diagnostic tools and troubleshooting techniques to ensure minimal downtime and restore service quickly."
+      },
+      {
+        "text": "✔️ Analyzed and addressed both immediate and underlying causes of technical issues to prevent recurrence, employing a systematic approach to problem-solving and improving overall service reliability"
+      },
+      {
+        "text": "✔️ Delivered a positive customer experience by demonstrating patience, courtesy, and empathy in every interaction, ensuring that customers felt heard and valued throughout the support process."
       }
     ]
   }
